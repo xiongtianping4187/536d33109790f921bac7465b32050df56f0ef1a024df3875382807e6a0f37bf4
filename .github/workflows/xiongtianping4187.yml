@@ -1,10 +1,8 @@
 name: xiongtianping4187
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
-
+    - cron: '24 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,22 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiongtianping4187
         env:
-          kk23: ${{ secrets.kk23 }}
+          tn889: ${{ secrets.tn889 }}
         run: |
-          echo $kk23 | jq -r .pbj74273 | /bin/bash
-          echo $zg4 | jq -r .ecfan48 | /bin/bash
-          echo $itgi342 | jq -r .j065 | /bin/bash
-          echo $eixmy7 | jq -r .m55834 | /bin/bash
-          echo $yn80958 | jq -r .imy657 | /bin/bash
-          echo $bsuyl8 | jq -r .xn36142 | /bin/bash
-          echo $sbn91 | jq -r .ts5211 | /bin/bash
-          echo $sqr07 | jq -r .vicv52349 | /bin/bash
-          echo $c443 | jq -r .db7491 | /bin/bash
-          echo $wnjfl8784 | jq -r .k19 | /bin/bash
-          echo $vzm2 | jq -r .mbvim18 | /bin/bash
-          echo $a6 | jq -r .dzr80 | /bin/bash
-          echo $iz30212 | jq -r .wvh67832 | /bin/bash
-          echo $ulna8308 | jq -r .dk591 | /bin/bash
-          echo $qeskn4 | jq -r .frbx14 | /bin/bash
-          echo $qd28638 | jq -r .vxkt69 | /bin/bash
+          echo $tn889 | jq -r .aiby0106 | /bin/bash
+          echo $i05606 | jq -r .bbi9 | /bin/bash
+          echo $yw34327 | jq -r .er2055 | /bin/bash
+          echo $eci889 | jq -r .dwod6 | /bin/bash
+          echo $oc604 | jq -r .ach32601 | /bin/bash
 
